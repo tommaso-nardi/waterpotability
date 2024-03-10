@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Carica il dataset
-dataset = pd.read_csv("water_potability_corrected_extended.csv")
+dataset = pd.read_csv("CSV Files/water_potability_corrected_extended.csv")
 
 # Di questi sceglierne solo uno! Il primo cancella le entry con dati mancanti, la seconda invece fa l'imputazione con media
 # dataset = dataset.dropna()
